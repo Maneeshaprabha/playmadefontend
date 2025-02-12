@@ -8,7 +8,7 @@ document.getElementById("contact-form").addEventListener("submit", async functio
     };
 
     try {
-        const response = await fetch("https://maneeshaprabha.github.io/playmadefontend/send-email", {
+        const response = await fetch("http:localhost:3000/send-email", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
